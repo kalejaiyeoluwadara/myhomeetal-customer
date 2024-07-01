@@ -14,7 +14,7 @@ function Main() {
           <CgMenuGridR size={30} />
         </div>
       </section>
-      <main className="flex flex-col w-[90%] gap-3">
+      <main className="flex flex-col w-[90%]  gap-3">
         {[1, 2, 3, 4, 5, 6].map((d, id) => {
           return (
             <section className="flex border w-full gap-8 h-auto p-6 rounded-[20px] justify-between items-start ">
@@ -51,6 +51,7 @@ function Main() {
           );
         })}
       </main>
+      <div className="w-[80%] center my-10 ">1,2,3</div>
     </div>
   );
 }
