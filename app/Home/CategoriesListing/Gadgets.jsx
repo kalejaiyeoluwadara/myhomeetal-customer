@@ -4,12 +4,12 @@ import flash from "@/app/assets/flash.svg";
 import item from "@/app/assets/item.svg";
 import { FaStar } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
-function Phones() {
+function Gadgets() {
   return (
     <main className="px-10 my-10 min-h-[50vh] ">
       <secion className="w-full text-base h-[55px] px-5 text-white bg-[#FF0000] flex justify-between items-center ">
         <div className="flex items-center justify-center gap-4">
-          <p className=" font-medium">My Phone & Tablet</p>
+          <p className=" font-medium">My Gadgets</p>
         </div>
         <p></p>
         <p className="text-white text-[16px] font-medium ">see all</p>
@@ -41,4 +41,4 @@ function Phones() {
   );
 }
 
-export default Phones;
+export default Gadgets;
