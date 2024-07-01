@@ -9,6 +9,7 @@ import ExtraAd from "./ExtraAd/ExtraAd";
 import NewProducts from "./NewProducts/NewProducts";
 import CategoriesListing from "./CategoriesListing/CategoriesListing";
 import MoreAd from "./MoreAd/MoreAd";
+import Subscribe from "./Subscribe/Subscribe";
 function Home() {
   return (
     <main className="w-full ">
@@ -22,6 +23,7 @@ function Home() {
       <NewProducts />
       <MoreAd />
       <CategoriesListing />
+      <Subscribe />
     </main>
   );
 }
