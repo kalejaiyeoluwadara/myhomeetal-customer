@@ -1,0 +1,39 @@
+/* style.css */
+.dot-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: black;
+}
+
+.section-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.section {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 897px; /* Ensure the width matches the section size */
+  transition: opacity 0.5s ease;
+}
+
+.section.inactive {
+  opacity: 0.5;
+}
+
+.section.active {
+  opacity: 1;
+}

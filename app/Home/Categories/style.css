@@ -1,0 +1,31 @@
+/* style.css */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-container {
+  overflow: hidden;
+  width: '80%'; /* Adjust this width to your needs */
+  position: relative;
+}
+
+.marq {
+  display: flex;
+  animation: marquee 10s linear infinite;
+  white-space: nowrap;
+}
+
+.marquee-mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 90%, white 100%);
+  pointer-events: none;
+}
